@@ -1,0 +1,41 @@
+{
+	"segments": {
+		"right": [
+			{
+				"function": "powerline.segments.common.sys.uptime",
+				"priority": 50
+			},
+			{
+				"function": "powerline.segments.common.net.network_load",
+				"args": {
+				    "si_prefix": true,
+				    "suffix": "B"
+				}
+			},
+			{
+			            "function": "powerline.segments.common.players.cmus",
+		    	            "name": "player",
+				    "args": {
+					    "format": "{state_symbol} {title} {elapsed}" 
+				    }
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+				"args": {
+					"format": "%d %b"
+				}
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+				"name": "time",
+				"args": {
+					"format": "%H:%M",
+					"istime": true
+				}
+			},
+			{
+				"function": "powerline.segments.common.net.hostname"
+			}
+		]
+	}
+}

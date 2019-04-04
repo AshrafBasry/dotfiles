@@ -1,0 +1,11 @@
+/*
+/*/
+!.gitignore
+!.vimrc
+!.tmux.conf
+!.profile
+!.bashrc
+!/.config/
+/.config/*
+!/.config/powerline
+!/.vim/
