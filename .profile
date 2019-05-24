@@ -26,6 +26,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-PATH="$HOME/.config/composer/vendor/bin:$PATH"
+PATH="$HOME/.symfony/bin:$HOME/.config/composer/vendor/bin:$PATH"
 
 export TERM=screen-256color
